@@ -44,7 +44,7 @@
 	},
 	"scripts": {
 		"lint": "eslint .",
-		"pretest": "yarn run lint",
+		"pretest": "npm run lint",
 		"test": "node ./test/runTest.js"
 	},
 	"devDependencies": {
