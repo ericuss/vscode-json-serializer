@@ -10,17 +10,16 @@
 		"Other"
 	],
 	"activationEvents": [
-		"onCommand:serializer.serializer",
 		"onCommand:serializer.serializeJsonToClipboard",
-		"onCommand:serializer.serializeJsonToFile"
+		"onCommand:serializer.serializeJsonToFile",
+		"onCommand:serializer.serializeSelectedJsonToClipboard",
+		"onCommand:serializer.serializeSelectedJsonToFile",
+		"onCommand:serializer.serializeSelectedJsonAndReplace",
+		"onCommand:serializer.serializeInitialize"
 	],
 	"main": "./extension.js",
 	"contributes": {
 		"commands": [
-			{
-				"command": "serializer.serializer",
-				"title": "Serializer"
-			},
 			{
 				"command": "serializer.serializeJsonToClipboard",
 				"title": "Serialize json to clipboard"
@@ -28,6 +27,18 @@
 			{
 				"command": "serializer.serializeJsonToFile",
 				"title": "Serialize json to file"
+			},
+			{
+				"command": "serializer.serializeSelectedJsonToClipboard",
+				"title": "Serialize selected json to clipboard"
+			},
+			{
+				"command": "serializer.serializeSelectedJsonToFile",
+				"title": "Serialize selected json to file"
+			},
+			{
+				"command": "serializer.serializeSelectedJsonAndReplace",
+				"title": "Serialize selected json and replace"
 			}
 		]
 	},
