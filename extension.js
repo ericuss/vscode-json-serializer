@@ -108,16 +108,6 @@ function activate(context) {
 			vscode.window.showErrorMessage('The extension of the file is not Json');
 		}
 	}
-
-	// let serializerCommand = vscode.commands.registerCommand('serializer.serializer', function () {
-	// 	// The code you place here will be executed every time your command is executed
-	// 	console.log('Hello World from serializer!');
-
-	// 	// Display a message box to the user
-	// 	vscode.window.showInformationMessage('Hello World from serializer!');
-	// });
-	// context.subscriptions.push(serializerCommand);
-
 }
 exports.activate = activate;
 
