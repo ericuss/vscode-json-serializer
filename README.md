@@ -15,7 +15,7 @@ Welcome to the Serializer extension for Visual Studio Code! This extension provi
 - Serialize from json file or selected text to clipboard or another file
 - Serialize from selected json text in editor and replace in editor
 
-
+![Serialize Json to file](./docs/images/SerializeJsonToFile.gif)
 ## Features
 
 Commands enabled:
@@ -26,13 +26,12 @@ Commands enabled:
 - Serialize from selected json text in editor to file
 - Serialize from selected json text in editor and replace in editor
 
+
 ## Release Notes
 
-Users appreciate release notes as you update your extension.
+### 0.0.1
 
-### 1.0.0
-
-Initial release of Json Serializer...
+Initial release of Json Serializer.
 
 ## Future features
 
