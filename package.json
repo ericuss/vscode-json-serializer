@@ -2,6 +2,7 @@
 	"name": "serializer",
 	"displayName": "serializer",
 	"description": "",
+    "icon": "docs/images/icon.png",
 	"publisher": "Ericuss",
 	"repository": {
 		"type": "git",
