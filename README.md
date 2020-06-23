@@ -6,7 +6,7 @@
 
 ![build](https://github.com/ericuss/vscode-json-serializer/workflows/.github/workflows/cicd.yml/badge.svg)
 
-[![Average time to resolve an issue](http://isitmaintained.com/badge/resolution/ericuss/vscode-json-serializer.svg)](http://isitmaintained.com/project/ericuss/vscode-json-serializer "Average time to resolve an issue")[![Percentage of issues still open](http://isitmaintained.com/badge/open/ericuss/vscode-json-serializer.svg)](http://isitmaintained.com/project/ericuss/vscode-json-serializer "Percentage of issues still open")
+[![Average time to resolve an issue](https://isitmaintained.com/badge/resolution/ericuss/vscode-json-serializer.svg)](https://isitmaintained.com/project/ericuss/vscode-json-serializer "Average time to resolve an issue")[![Percentage of issues still open](https://isitmaintained.com/badge/open/ericuss/vscode-json-serializer.svg)](https://isitmaintained.com/project/ericuss/vscode-json-serializer "Percentage of issues still open")
 
 [![Maintainability](https://api.codeclimate.com/v1/badges/646503930771341bca6e/maintainability)](https://codeclimate.com/github/ericuss/vscode-json-serializer/maintainability)
 [![Test Coverage](https://api.codeclimate.com/v1/badges/646503930771341bca6e/test_coverage)](https://codeclimate.com/github/ericuss/vscode-json-serializer/test_coverage)
@@ -16,6 +16,7 @@ Welcome to the Serializer extension for Visual Studio Code! This extension provi
 - Serialize from selected json text in editor and replace in editor
 
 ![Serialize Json to file](./docs/images/SerializeJsonToFile.gif)
+
 ## Features
 
 Commands enabled:
